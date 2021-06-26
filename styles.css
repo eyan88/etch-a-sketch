@@ -1,0 +1,15 @@
+
+#container {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    width: 960px;
+    height: 960px;
+    position: absolute;
+}
+
+
+.cell {
+    height: 100%;
+    width: 100%;
+}
