@@ -10,12 +10,12 @@ function createGrid(cellNumber) {
             container.style.gridTemplateColumns = `repeat(${cellNumber}, 1fr)`;
             container.style.gridTemplateRows = `repeat(${cellNumber}, 1fr)`;
             container.append(cell);
-            
+
             //adding event listener
             cell.addEventListener('mouseover', function (e) {
                 let cellColor = Math.floor(Math.random()*16777215).toString(16);
                 cell.style.backgroundColor = '#' + cellColor;
-            });
+            })
         }
     }
 }
