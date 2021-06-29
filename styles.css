@@ -1,3 +1,13 @@
+body {
+    background-color: seashell;
+}
+
+#wrapper {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 #container {
     display: grid;
@@ -5,11 +15,33 @@
     justify-content: center;
     width: 960px;
     height: 960px;
-    position: absolute;
+    position: relative;
 }
 
+h1 {
+    align-self: center;
+    margin: 5px;
+}
 
 .cell {
     height: 100%;
     width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+#clear-button {
+    background-color: seashell;
+    font-family: inherit;
+    font-size: 1em;
+    margin: 5px;
+    align-self: center;
+    border-width: 1px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 5px;
+}
+
+#clear-button:hover {
+    background-color: snow;
 }
